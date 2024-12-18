@@ -1,0 +1,84 @@
+
+<html>
+    <head>
+        <title>MenuEffect Example</title>
+        <script src="menu-effect.js"></script>
+    </head>
+
+    <body>
+        <h1>Hello, world!</h1>
+        <p>Click <input type="button" value="HERE" data-menueffect-trigger="menu1"> to open the menu.</p>
+        <script type="application/json" data-menueffect-target="menu1">
+        [
+            {
+                "type": "image",
+                "position-x": 1,
+                "position-y": 1,
+                "src": "https://note.activetk.jp/favicon_400x400.png",
+                "title": "ActiveTK's Note"
+            },
+            {
+                "type": "text",
+                "position-x": 2,
+                "position-y": 1,
+                "height": 1,
+                "width": 7,
+                "content": "ActiveTK's Note",
+                "fontsize": 0.8,
+                "style": "text-align: left;"
+            },
+            {
+                "type": "link",
+                "position-x": 1,
+                "position-y": 3,
+                "height": 1,
+                "width": 3,
+                "content": "HOME",
+                "href": "#home",
+                "fontsize": 0.8,
+                "style": "text-align: left;"
+            },
+            {
+                "type": "link",
+                "position-x": 1,
+                "position-y": 4,
+                "height": 1,
+                "width": 3,
+                "content": "AUHOR",
+                "href": "#author",
+                "fontsize": 0.8,
+                "style": "text-align: left;"
+            },
+            {
+                "type": "close",
+                "position-x": 14,
+                "position-y": 0
+            },
+            {
+                "type": "div",
+                "position-x": 8,
+                "position-y": 8,
+                "height": 1,
+                "width": 2
+            },
+            {
+                "type": "div",
+                "position-x": 2,
+                "position-y": 10,
+                "height": 2,
+                "width": 1
+            },
+            {
+                "type": "div",
+                "position-x": 10,
+                "position-y": 8,
+                "height": 2,
+                "width": 1
+            }
+        ]
+        </script>
+
+    </body>
+
+</html>
+
