@@ -3,7 +3,7 @@
  * Author: ActiveTK.
 */
 
-window.menujs = window.menujs ? window.menujs : {
+window.menujs = window.menujs ?? {
     targets: [],
     triggers: [],
     updateTriggersAndTargets: function () {
